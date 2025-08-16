@@ -1,0 +1,48 @@
+name: canteen_final
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.6.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/chef.png
+    - assets/banner1.png
+    - assets/google_logo.png
+    - assets/Vector.png
+    - assets/banner2.png
+    - assets/banner3.png
+    - assets/dishes/dish1.png
+    - assets/dishes/dish2.png
+    - assets/dishes/dish3.png
+    - assets/dishes/dish4.png
+    - assets/dishes/dish5.png
+    - assets/dishes/dish6.png
+    - assets/dishes/dish7.png
+    - assets/dishes/dish8.png
+    - assets/dishes/dish9.png
+    - assets/dishes/dish10.png
+
+  
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: assets/fonts/Urbanist-Regular.ttf
+        - asset: assets/fonts/Urbanist-Bold.ttf
+          weight: 700
